@@ -9,6 +9,7 @@ echo "${RED}zsh INSTALL...................${NC}"
 apt install zsh -y
 echo "${RED}ACTIVE ZSH...................${NC}"
 zsh
+rm -r /root/.oh-my-zsh
 echo "${RED}ohmyzsh  install...................${NC}"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "${RED}Adding autosuggestions...................${NC}"
